@@ -1,0 +1,10 @@
+stlye.css
+
+html, body {
+    margin: 10;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+  }
+  
