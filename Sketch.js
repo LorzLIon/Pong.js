@@ -18,7 +18,7 @@ let ballVelocityY;
 
 function setup() {
   
-  createCanvas(600, 400);
+  createCanvas(1000, 666);
 
   // initialize player position to mid screen
   player1Position = player2Position = height / 2 - 50; 
