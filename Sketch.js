@@ -1,6 +1,6 @@
 
 // Create your constants, explain what these are
-const INITIAL_BALL_SPEED = 3;
+const INITIAL_BALL_SPEED = 4;
 const BALL_RADIUS = 20;
 
 const PADDLE_WIDTH = 10;
