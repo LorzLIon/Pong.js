@@ -173,9 +173,5 @@ function handlePaddles() {
   player2Position = constrain(player2Position, 0, height - PADDLE_HEIGHT);
 }
 
-function preload() {
 
-  //img = loadImage (chris/Desktop/p5.js_offline/Space_background.jpg);
   
-  
-}
