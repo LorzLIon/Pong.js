@@ -68,7 +68,12 @@ function draw() {
   textAlign (CENTER);
     text ("GAMEOVER", width / 2, height / 2);
 
+ if (player2Score >= 5) {
 
+    ball.x = (width/2)
+    ball.y = (height/2)
+  textAlign (CENTER);
+    text ("GAMEOVER", width / 2, height / 2);
     
 }
   
@@ -95,6 +100,7 @@ function handleBall() {
       player2Score++;
       reset();
       return;
+
     }
 
     // check collision on left paddle
