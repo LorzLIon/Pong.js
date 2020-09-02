@@ -46,7 +46,7 @@ function setup() {
 
 function draw() {
 
-  background(img);
+  background(0);
   
   //Step one 
 
