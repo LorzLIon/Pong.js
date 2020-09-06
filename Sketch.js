@@ -67,7 +67,7 @@ function draw() {
     ball.y = (height/2)
   textAlign (CENTER);
     text ("GAMEOVER", width / 2, height / 2);
-
+  }
  if (player2Score >= 5) {
 
     ball.x = (width/2)
@@ -77,7 +77,7 @@ function draw() {
     
 }
   
-  
+
   handlePaddles();
 
   handleBall();
